@@ -108,7 +108,6 @@ followers.category
 
 # d
 # Define the days of the week
-days_of_week <- c("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
 
 # Create an empty contingency table matrix
 contingency_table <- matrix(0, nrow = 3, ncol = 7, dimnames = list(c("High", "Low", "Med"), days_of_week))
